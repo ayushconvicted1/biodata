@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #F1A661;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #F1A661;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #E38B29;
+  line-height: 3;
+}
+a{
+  color: #E38B29;
+}
+
+
+.topContainer{
+  background-color: #FDEEDC;
+  position: relative;
+  padding-top: 125px;
+}
+.bottomCloud{
+  position: absolute;
+  right: 80%;
+}
+.topCloud{
+  position: relative;
+  left: 35%;
+}
+.mountImg{
+  width: 50em;
+}
+.webDevImg{
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+.vaImg{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.middleContainer{
+
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+  background: #FFD8A9;
+  background-image: -webkit-linear-gradient(top, #FFD8A9, #F1A661);
+  background-image: -moz-linear-gradient(top, #FFD8A9, #F1A661);
+  background-image: -ms-linear-gradient(top, #FFD8A9, #F1A661);
+  background-image: -o-linear-gradient(top, #FFD8A9, #F1A661);
+  background-image: linear-gradient(to bottom, #FFD8A9, #F1A661);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 75px;
+}
+
+.btn:hover {
+  background: #E38B29;
+  background-image: -webkit-linear-gradient(top, #E38B29, #F1A661);
+  background-image: -moz-linear-gradient(top, #E38B29, #F1A661);
+  background-image: -ms-linear-gradient(top, #E38B29, #F1A661);
+  background-image: -o-linear-gradient(top, #E38B29, #F1A661);
+  background-image: linear-gradient(to bottom, #E38B29, #F1A661);
+  text-decoration: none;
+}
+.bottom-container{
+  margin-top: 130px;
+  padding-top: 20px;
+  background-color: #FDEEDC;
+  }
+.bio{
+  width: 50%;
+  margin: auto auto 30px;
+  line-height: 2;
+}
+hr{
+  width: 3%;
+  border-style: none none dotted;
+  border-width: 5px;
+  color: #EAF6F6;
+  margin: 100px auto;
+}
+.pp{
+  margin-top: 50px;
+}
